@@ -16,11 +16,9 @@
 
 - an (initial) system configuration tool - [cloud-init](https://cloudinit.readthedocs.io/en/latest/) / [ignition](https://coreos.github.io/ignition/) / other?
 
-[^1]: minimal to the point where **all** files in the root filesystem are required, and removing any one file would render the server unusable; that basically means just required binaries, shared libraries and configuration files
-
 ## Use cases:
 
-- one or more dedicated[^1] servers in a home-lab
+- one or more dedicated[^2] servers in a home-lab
 
 - dedicated servers in a bare-metal hosting provider (e.g. Hetzner)
 
@@ -28,4 +26,6 @@
 
 - one or more dedicated VMs in a hypervisor (e.g. libvirt, VMWare)
 
-[^1]: "dedicated" in this context means that the server / VM is used **exclusively** as a Kubernetes node
+[^1]: minimal to the point where **all** files in the root filesystem are required, and removing any one file would render the server unusable; that basically means just required binaries, shared libraries and configuration files
+
+[^2]: "dedicated" in this context means that the server / VM is used **exclusively** as a Kubernetes node
