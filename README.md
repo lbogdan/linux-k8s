@@ -16,6 +16,10 @@
 
 - an (initial) system configuration tool - [cloud-init](https://cloudinit.readthedocs.io/en/latest/) / [ignition](https://coreos.github.io/ignition/) / other?
 
+- support existing:
+  - CRIs: `containerd`, `cri-o`, maybe? `cri-dockerd`
+  - maybe? OCI runtimes: `runc`, `crun`, `gvisor`, Kata Containers
+
 ## Use cases:
 
 - one or more dedicated[^2] servers in a home-lab
