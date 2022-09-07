@@ -1,0 +1,12 @@
+subarch: amd64
+target: stage3
+version_stamp: systemd-20220904-2
+rel_type: default
+profile: default/linux/amd64/17.1/systemd
+snapshot: 20220904
+source_subpath: default/stage3-amd64-systemd-20220904
+compression_mode: pixz
+# update_seed: yes
+# update_seed_command: --update --deep --newuse @world
+portage_confdir: /root/work/repos/lbogdan/linux-k8s/experiments/stage3/releases/portage/stages
+portage_prefix: releng
