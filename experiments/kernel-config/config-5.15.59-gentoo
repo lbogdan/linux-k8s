@@ -8759,7 +8759,7 @@ CONFIG_EVM_ATTR_FSUUID=y
 # CONFIG_DEFAULT_SECURITY_SELINUX is not set
 CONFIG_DEFAULT_SECURITY_APPARMOR=y
 # CONFIG_DEFAULT_SECURITY_DAC is not set
-CONFIG_LSM="yama,loadpin,safesetid,integrity,selinux,smack,tomoyo,apparmor"
+CONFIG_LSM="lockdown,yama,loadpin,safesetid,integrity,apparmor,selinux,smack,tomoyo,bpf"
 
 #
 # Kernel hardening options
